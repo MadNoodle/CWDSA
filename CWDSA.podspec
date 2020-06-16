@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CWDSA"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "This library allows you to Digitally Sign with DSA."
 
   spec.description  = "DSA signature tools for ios"
