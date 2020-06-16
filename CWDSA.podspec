@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CWDSA"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "This library allows you to Digitally Sign with DSA."
 
   spec.description  = "DSA signature tools for ios"
@@ -20,8 +20,8 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
-   spec.frameworks = "GRKOpenSSLFramework"
+   #spec.frameworks = "GRKOpenSSLFramework"
 
-   spec.dependency "GRKOpenSSLFramework"
+   #spec.dependency "GRKOpenSSLFramework"
 
 end
