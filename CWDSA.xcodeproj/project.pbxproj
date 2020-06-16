@@ -26,7 +26,6 @@
 		B95E1D222498F6AA001D0E19 /* DSASigner.h in Headers */ = {isa = PBXBuildFile; fileRef = B95E1D202498F6AA001D0E19 /* DSASigner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B95E1D232498F6AA001D0E19 /* DSASigner.m in Sources */ = {isa = PBXBuildFile; fileRef = B95E1D212498F6AA001D0E19 /* DSASigner.m */; };
 		B99DE5BF2498E864007221AA /* CWDSA.h in Headers */ = {isa = PBXBuildFile; fileRef = B99DE5BD2498E864007221AA /* CWDSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4FF8B32A46BD574130473A5 /* Pods_CWDSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49752D39363E9C6FF6315FB6 /* Pods_CWDSA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 /* Begin PBXFileReference section */
 		2EE2826D1841DDDB7163B298 /* Pods-CWDSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWDSA.release.xcconfig"; path = "Target Support Files/Pods-CWDSA/Pods-CWDSA.release.xcconfig"; sourceTree = "<group>"; };
 		463C729E12A140FFA1834343 /* Pods-CWDSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWDSA.debug.xcconfig"; path = "Target Support Files/Pods-CWDSA/Pods-CWDSA.debug.xcconfig"; sourceTree = "<group>"; };
-		49752D39363E9C6FF6315FB6 /* Pods_CWDSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CWDSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B914779F24990D7B00FB5D21 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openssl.framework; path = "Pods/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework"; sourceTree = "<group>"; };
 		B91477A124990DB500FB5D21 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
 		B95E1D202498F6AA001D0E19 /* DSASigner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSASigner.h; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FF8B32A46BD574130473A5 /* Pods_CWDSA.framework in Frameworks */,
 				B91477A024990D7B00FB5D21 /* openssl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,7 +88,6 @@
 		B1B5C19760D627536AE6E8A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49752D39363E9C6FF6315FB6 /* Pods_CWDSA.framework */,
 				B914779F24990D7B00FB5D21 /* openssl.framework */,
 			);
 			name = Frameworks;
